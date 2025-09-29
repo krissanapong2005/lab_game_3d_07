@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d05ivp2xfxosm"]
+
+[ext_resource type="PackedScene" uid="uid://4djxn8wo36rc" path="res://Breathing Idle.fbx" id="1_nkmm1"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Breathing Idle" parent="." instance=ExtResource("1_nkmm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.114528, -1.19209e-07, -0.0752542)
